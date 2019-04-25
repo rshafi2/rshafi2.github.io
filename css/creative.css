@@ -82,6 +82,11 @@ footer ul {
 
 
 
+#profile-image:hover {
+  transform: scale(1.2) rotate(360deg);
+
+
+
 footer ul li {
   display: inline-block;
 }
