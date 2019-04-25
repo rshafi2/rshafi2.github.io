@@ -154,6 +154,11 @@ blockquote {
   margin: 0 0 1rem;
 }
 
+
+#profile-image:hover {
+  transform: scale(1.2) rotate(360deg);
+
+
 b,
 strong {
   font-weight: bolder;
