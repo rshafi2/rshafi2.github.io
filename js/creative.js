@@ -80,7 +80,7 @@ var i = 0; // Start point
 		}
 
 		setTimeout("changeImg()", time);
-	}
+	};
 
 	window.onload = changeImg;
 
