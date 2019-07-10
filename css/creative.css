@@ -7661,10 +7661,7 @@ button.bg-dark:focus {
     justify-content: flex-end !important;
   }
 
-  #skills {
-    background-color: red;
-    transition: background-color 2s;
-}
+
 
 
   .justify-content-sm-center {
