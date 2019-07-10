@@ -71,7 +71,7 @@ var i = 0; // Start point
 
 	// Change Image
 	function changeImg(){
-		document.getElementById('about').src = images[i];
+		document.slide.src = images[i];
 
 		if(i < images.length - 1){
 			i++;
