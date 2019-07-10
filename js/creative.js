@@ -57,27 +57,7 @@
 
 })(jQuery); // End of use strict
 
-// Wrap every letter in a span
-$("h1").each(function(){
-  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-});
 
-anime.timeline({loop: true})
-  .add({
-    targets: 'h1 .letter',
-    opacity: [0,1],
-    easing: "easeInOutQuad",
-    duration: 2250,
-    delay: function(el, i) {
-      return 150 * (i+1)
-    }
-  }).add({
-    targets: 'h1',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
 
 
 
