@@ -57,6 +57,30 @@
 
 })(jQuery); // End of use strict
 
-// Wrap every letter in a span
+// slideshow
 
+var i = 0; // Start point
+	var images = [];
+	var time = 1000;
+
+	// Image List
+	images[0] = 'nyc1.jpg';
+	images[1] = 'nyc2.jpg';
+	images[2] = 'nyc3.jpg';
+	images[3] = 'nyc4.jpg';
+
+	// Change Image
+	function changeImg(){
+		document.getElementById('about').src = images[i];
+
+		if(i < images.length - 1){
+			i++;
+		} else {
+			i = 0;
+		}
+
+		setTimeout("changeImg()", time);
+	}
+
+	window.onload = changeImg;
 
