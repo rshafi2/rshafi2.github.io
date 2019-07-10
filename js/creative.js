@@ -59,7 +59,7 @@
 
 // slideshow
 
-var i = 0; // Start point
+/*var i = 0; // Start point
 	var images = [];
 	var time = 1000;
 
@@ -84,3 +84,4 @@ var i = 0; // Start point
 
 	window.onload = changeImg;
 
+*/
