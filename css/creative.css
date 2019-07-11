@@ -7669,6 +7669,13 @@ button.bg-dark:focus {
         
 }
 
+#space {
+
+  max-width: 100%;
+  height: auto;
+
+}
+
 
 
   .justify-content-sm-center {
