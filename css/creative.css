@@ -7667,6 +7667,10 @@ button.bg-dark:focus {
         
 }
 
+ #space {
+        padding: 20px;
+}
+
   .justify-content-sm-center {
     -webkit-box-pack: center !important;
     -ms-flex-pack: center !important;
