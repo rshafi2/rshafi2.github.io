@@ -7661,9 +7661,10 @@ button.bg-dark:focus {
     justify-content: flex-end !important;
   }
 
-
-
-
+ #project { color:#ffffff; 
+          text-align:center;
+        }
+        
   .justify-content-sm-center {
     -webkit-box-pack: center !important;
     -ms-flex-pack: center !important;
