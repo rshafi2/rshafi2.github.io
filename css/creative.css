@@ -7664,12 +7664,11 @@ button.bg-dark:focus {
  #project { 
   color: #ffffff; 
   text-align: center;
+  padding: 20px;
         
 }
 
- #space {
-        padding: 20px;
-}
+
 
   .justify-content-sm-center {
     -webkit-box-pack: center !important;
