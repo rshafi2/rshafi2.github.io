@@ -7669,12 +7669,11 @@ button.bg-dark:focus {
         
 }
 
-#space {
+ .project-photo {
 
-  max-width: 100%;
-  height: auto;
-
-}
+  height: 100%; 
+  width:100%;
+ }
 
 
 
