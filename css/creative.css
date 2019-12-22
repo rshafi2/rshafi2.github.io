@@ -84,6 +84,9 @@ footer ul {
 
 #profile-image:hover {
   transform: scale(1.2) rotate(360deg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
